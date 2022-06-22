@@ -1,9 +1,12 @@
 const Msg = (props) => {
-    const {message} = props;
+
+    const {isim} = props;
+
     console.log(props);
+
     return (
         <div>
-        <h4>{message}</h4>
+        <h4>{isim}</h4>
         </div>
     );
 }
